@@ -2,17 +2,15 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* background-image: url("Images/Hero.jpg"); */
     background-size: cover;
     background-color: #2C514C;
 }
 
 header {
-    /* background-color: #0B4F6C; */
     display: flex;
     flex-direction: column;
 }
@@ -20,7 +18,7 @@ header {
 header h1 {
     display: inline-block;
     color: white;
-    padding: 10px;
+    padding: 30px;
     text-align: center;
     font-size: 6em;
     border-bottom: 4px groove #ffff;
@@ -38,6 +36,7 @@ header h1 {
 header h1 p {
     font-size: 0.5em;
     font-style: italic;
+    padding-top: -10px;
 }
 
 ul {
@@ -46,7 +45,7 @@ ul {
     flex-direction: column;
     align-items: center;
     font-size: 3.5em;
-    padding: 20px;
+    padding: 10px;
     background-color: #0B4F6C;
     border-bottom: 4px groove #ffff;
 }
@@ -72,7 +71,7 @@ li a:hover {
 }
 
 .hero { 
-    height: 400px;
+    height: 350px;
     width: 100%;
     background-image: url("Images/Hero.jpg");
     background-size: cover;
@@ -91,6 +90,7 @@ li a:hover {
 
 #hero-text {
     margin-left: 20px;
+    margin-right: 20px;
     font-size: 3em;
     color: #ffff;
     text-shadow: -1px -1px 0px #0B4F6C, 3px 3px 0px black;
@@ -153,7 +153,7 @@ li a:hover {
 }
 
 #about-section {
-    font-size: 1em;
+    font-size: 0.8em;
     color: #ffff;
     padding: 10px;
     margin-top: 20px;
@@ -327,32 +327,42 @@ div p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #contact-footer {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #ffff;
 }
 
 .footer-item {
-    margin: auto;
     border-bottom: 4px solid #91C4F2;;
 }
 
 #email {
-    display: inline-block;
+    display: inline;
     flex: 1;
 }
 
 #github, #linked-in {
-    display: inline-block;
-    margin-left: 150px;
+    display: inline;
+    margin-left: 100px;
     flex: 1;
 }
+
 article a {
     text-decoration: none;
 }
+
+article a:hover {
+    color: #91C4F2;
+}
+
+.footer-item:hover {
+    border-bottom-color: #ffff;
+}
+
+
 
 
 
