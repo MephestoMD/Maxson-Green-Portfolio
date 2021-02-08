@@ -5,13 +5,239 @@
 }
 
 body {
-    background-color: #ADC698;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: url("Images/Hero.jpg"); */
+    background-size: cover;
+    background-color: #2C514C;
 }
 
 header {
-    background-color: #0B4F6C;
+    /* background-color: #0B4F6C; */
+    display: flex;
+    flex-direction: column;
 }
 
 header h1 {
     display: inline-block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 6em;
+    border-bottom: 4px groove #ffff;
+    background-image: url("Images/Hero.jpg");
+    background-size: cover;
+    text-shadow: 3px 3px 0px black;
+}
+
+
+.header-emphasis {
+    font-size: 1.5em;
+    color: #91C4F2;
+}
+
+header h1 p {
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3.5em;
+    padding: 20px;
+    background-color: #0B4F6C;
+    border-bottom: 4px groove #ffff;
+}
+
+li {
+    padding: 3px;
+    margin: 8px 0px 8px;
+    border-bottom: 8px solid #91C4F2;
+}
+
+li a{
+    text-decoration: none;
+    text-shadow: -1px -1px 0px #0B4F6C, 3px 3px 0px black;
+    color: #ffff;
+}
+
+li:hover {
+    border-bottom-color: #ffff;
+}
+
+li a:hover {
+    color: #91C4F2;
+}
+
+.hero { 
+    height: 400px;
+    width: 100%;
+    background-image: url("Images/Hero.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px groove #ffff;
+}
+
+#me { 
+    height: 250px;
+    margin-left: 80px;
+    border: 5px groove #ffff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0px 2px black; 
+}
+
+#hero-text {
+    margin-left: 20px;
+    font-size: 3em;
+    color: #ffff;
+    text-shadow: -1px -1px 0px #0B4F6C, 3px 3px 0px black;
+    background-color: #0B4F6C;
+    border: 2px solid #ffff;
+    box-shadow: 3px 3px 0px 3px black;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+/* main {
+    display: flex;
+    width: 80%;
+    height: 800px;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+.right-margin {
+    margin-right: 100px;
+}
+
+.left-margin {
+    margin-left: 50px;
+}
+
+#about-wrapper {
+    display: flex;
+}
+
+#work-wrapper {
+    display: flex;
+}
+.section-header {
+    font-size: 3em;
+    color: #ffff;
+    align-items: top;
+    text-shadow: 3px 3px 0px black;
+    padding-left: 20px;
+    padding-top: 20px;
+    flex: 1;
+}
+
+#about-me {
+    border-right: 3px solid #ffff;
+    /* height: 160px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex: 0 0 20%;
+}
+
+#my-work {
+    border-right: 3px solid #ffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* height: 400px; */
+    flex: 0 0 20%;
+}
+
+#content-flex {
+    flex: 1;
+}
+
+#contact-me {
+    border-right: 3px solid #ffff;
+    margin-top: 15px;
+
+}
+#about-section {
+    font-size: 1.5em;
+    color: #ffff;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+#main-project {
+    margin-top: 20px;
+    background-image: url("Images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border: 8px solid #0B4F6C;
+    flex: 1;
+    position: relative;
+    opacity: 0.6;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+#sub-project1 {
+    margin-top: 20px;
+    background-image: url("Images/Project1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 133px;
+    border: 8px solid #0B4F6C;
+    flex: 1;
+    position: relative;
+    opacity: 0.6;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+container a {
+    text-decoration: none;
+    color: #ffff;
+}
+#main-project .project-description {
+    padding: 10px;
+    width: 175px;
+    background-color: #0B4F6C;
+    position: absolute;
+    left: -2px;
+    bottom: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 0px 2px black; 
+}
+
+div p {
+    font-size: 0.75em;
+    padding-top: 5px;
+    color: #91C4F2;
+}
+
+#main-project:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact-footer {
+    clear: both;
 }

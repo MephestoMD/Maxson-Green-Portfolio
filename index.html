@@ -10,9 +10,9 @@
 
 <body>
     <header>
-        <h1>Maxson Green
+        <h1><span class = "header-emphasis" >M</span>axson <span class = "header-emphasis" >G</span>reen
             <p>
-            Web Development & Design
+            Web Development <span class = "header-emphasis" >&</span> Design
             </p>
         </h1>
             <ul>
@@ -22,80 +22,87 @@
             </ul>
     </header>
 
-<section>
-    <figure class="hero"></figure>
-    <figure class = "me"></figure>
+    <figure class="hero">
+            <img id = "me" src="Images/Me.jpg" alt="Photo of Maxson Green">
+            <div id = "hero-text">
+                Hello, my name is Maxson. 
+                <p>
+                    I am a web developer living in Columbus, OH.
+                </p>
+            </div>
+    </figure>
 
-    <div id = "hero-text">
-        Hello, my name is Maxson. 
+<wrapper id = "about-wrapper">
+    <article id = "about-me" class = "section-header">About Me</article> 
+    <section id = "about-section" class = "right-margin left-margin">
+        Hi!&nbsp My name is Maxson Green.&nbsp I was born in Dayton, Ohio in 1989.&nbsp In 2008, I attended The Ohio State University, graduating with a Bachelor of Arts in Philosophy in 2011. 
         <p>
-            I am a web developer living in Columbus, OH.
+        <br>
+        For the bulk of that time until now,&nbsp software was a hobby while my career was in restaurant management.&nbsp Recently,&nbsp I decided to turn my hobby and real passion into my career.&nbsp This website is a testament to my work thus far.
         </p>
-    </div>
+    </section>
+</wrapper>
 
-</section>
-
-<section class = "section-header">
-    <article id = "about-me">About Me</article> 
-    <article id = "my-work">My Work</article>
-    <article id = "contact-me">Contact Me</article>  
-</section>
-
-<main class = "content">
+<wrapper id = "work-wrapper">
+    <article id = "my-work" class = "section-header">My Work</article>
+    <container id = "content-flex" class = "right-margin left-margin">
         <a href = "https://mephestomd.github.io/horiseon-access/">
             <figure id = "main-project">
-                <container class = "project-description">
+                <div class = "project-description">
                     Horiseon Accessibility Project
-                    <p>
-                        HTML/CSS
-                    </p>
-                </container>
+                        <p>HTML/CSS</p>
+                </div>
             </figure>
         </a>
-    
+        
         <a href = "#">
-            <figure class = "sub-project">
-                <container class = "project-description">
+            <figure id = "sub-project1">
+                <div class = "project-description">
                     Placeholder Project #1
                     <p>
                         HTML/CSS
                     </p>
-                </container>
+                </div>
             </figure>
         </a>
 
         <a href = "#">
-            <figure class = "sub-project">
-                <container class = "project-description">
+            <figure id = "sub-project2">
+                <div class = "project-description">
                     Placeholder Project #2
                     <p>
                         HTML/CSS
                     </p>
-                </container>
+                </div>
             </figure>
         </a>
 
         <a href = "#">
-            <figure class = "sub-project">
-                <container class = "project-description">
+            <figure id = "sub-project3">
+                <div class = "project-description">
                     Placeholder Project #3
                     <p>
                         HTML/CSS
                     </p>
-                </container>
+                </div>
             </figure>
         </a>
 
         <a href = "#">
-            <figure class = "sub-project">
-                <container class = "project-description">
+            <figure id = "sub-project4">
+                <div class = "project-description">
                     Placeholder Project #4
                     <p>
-                        HTML/CSS
+                    HTML/CSS
                     </p>
-                </container>
+                </div>
             </figure>
         </a>
+    </container>
+</wrapper>
+    <article id = "contact-me" class = "section-header">Contact Me</article> 
+
+    <section class = "right-margin left-margin">
 
     <footer id = "contact-footer">
         <article class = "contact-info">
