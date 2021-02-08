@@ -91,6 +91,7 @@ li a:hover {
 #hero-text {
     margin-left: 20px;
     margin-right: 20px;
+    max-height: 300px ;
     font-size: 3em;
     color: #ffff;
     text-shadow: -1px -1px 0px #0B4F6C, 3px 3px 0px black;
@@ -362,6 +363,17 @@ article a:hover {
     border-bottom-color: #ffff;
 }
 
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+
+    ul {
+        flex-direction: row;
+        background-color: blue;
+    }
+}
+    
 
 
 
